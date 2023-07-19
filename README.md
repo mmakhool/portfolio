@@ -37,9 +37,9 @@ One of the first major roadblocks that we hit was in the development of the SQS 
 we are trying to reach. At first, I didn't really know how to develop the code for these services and there wasn't a lot of recent in-house repositories that utilized 
 SQS, so a lot of the research was done through online sources and AWS documentation.
 
-![image](https://github.com/mmakhool/Mick/assets/132611699/66b254c4-279f-40c9-91ee-049c11de3a6d)
+![image](https://github.com/mmakhool/Portfolio/assets/132611699/d2d70e83-fbe7-47dc-98e8-1c2e80f4196f)
 
-![image](https://github.com/mmakhool/Mick/assets/132611699/5cf82b3d-8c76-4599-9203-962fcdd6e026)
+![image](https://github.com/mmakhool/Portfolio/assets/132611699/68f31acc-5235-45af-8a7a-3579d886523b)
 
 ## LTW
 
@@ -82,9 +82,10 @@ to lead 3 Features and to present during a code review.
 DashDog was the first Feature I lead with Chris Wilder and Joel Smith, who mentors Chris. The DashDog application provides important health checks for AWS East and West 
 and all OA services. We used Svelt and Go throughout the development process, which was my first time utilizing other programming languages outside of Progress.
 
-![image](https://github.com/mmakhool/Mick/assets/132611699/d8487906-4d66-4d26-b7a7-f3400594581f)
+![image](https://github.com/mmakhool/Portfolio/assets/132611699/b5b05c55-afef-4d3d-aa19-9152bf7926d9)
 
-![image](https://github.com/mmakhool/Mick/assets/132611699/154d5089-d9f4-432c-989b-59697d1e8b73)
+![image](https://github.com/mmakhool/Portfolio/assets/132611699/d1ae29d4-6953-4f34-b06c-58226fbfebd8)
+
 
 ### Input Validation
 
@@ -117,9 +118,9 @@ The goal of this project was to create a tidal job program that will acquire log
 dates on a screen in AMP on each environment to ensure user-licensing compliance. I utilized an existing SOC Audit codetable/driver to contain the report that our
 tidal job runs. The driver program also gives us the capabilities to run the report at will without having to wait for the tidal job to run.
 
-![image](https://github.com/mmakhool/Mick/assets/132611699/2f00a6ed-bae4-499a-b5cc-c57b3e4f8d2f)
+![image](https://github.com/mmakhool/Portfolio/assets/132611699/9d70cef2-5da4-457b-8dad-3c0e513e4dfc)
 
-![image](https://github.com/mmakhool/Mick/assets/132611699/22321ead-40e6-4b85-b6e4-9ccff6a276df)
+![image](https://github.com/mmakhool/Portfolio/assets/132611699/4232e87b-9708-4758-8f9a-c82761adf273)
 
 # Training
 
