@@ -1,6 +1,5 @@
 <h1>Hello there!<br/> </h1>
 
-- 🔭 I’m currently working on: A Toolbox BFF
 - 🌱 I’m currently learning: Angular/Node and Typescript
 - 🤔 I’m looking for help with: AWS Terraform
 - 👾 I have been working as a Software Engineer for: 4 years
