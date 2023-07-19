@@ -36,13 +36,7 @@ One of the first major roadblocks that we hit was in the development of the SQS 
 we are trying to reach. At first, I didn't really know how to develop the code for these services and there wasn't a lot of recent in-house repositories that utilized 
 SQS, so a lot of the research was done through online sources and AWS documentation.
 
-Below are some code samples that are involved: 
-
-- OAService
-
 ![image](https://github.com/mmakhool/Mick/assets/132611699/66b254c4-279f-40c9-91ee-049c11de3a6d)
-
-- SQSService
 
 ![image](https://github.com/mmakhool/Mick/assets/132611699/5cf82b3d-8c76-4599-9203-962fcdd6e026)
 
