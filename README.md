@@ -146,6 +146,7 @@ throughout the guide.
 
 # Feedback
 
-Follow [this link](TODO) to be taken to the Feedback section of my portfolio.
+Follow [this link]([TODO](https://github.com/mmakhool/Portfolio/blob/main/Feedback)https://github.com/mmakhool/Portfolio/blob/main/Feedback) to be taken to the Feedback 
+section of my portfolio.
 
-
+![image](https://github.com/mmakhool/Portfolio/assets/132611699/720552ee-e891-4b50-8299-b997d9fb964a)
