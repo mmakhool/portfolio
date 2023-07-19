@@ -87,6 +87,10 @@ to lead 3 Features and to present during a code review.
 DashDog was the first Feature I lead with Chris Wilder and Joel Smith, who mentors Chris. The DashDog application provides important health checks for AWS East and West and all OA services.
 We used Svelt and Go throughout the development process, which was my first time utilizing other programming languages outside of Progress.
 
+![image](https://github.com/mmakhool/Mick/assets/132611699/d8487906-4d66-4d26-b7a7-f3400594581f)
+
+![image](https://github.com/mmakhool/Mick/assets/132611699/154d5089-d9f4-432c-989b-59697d1e8b73)
+
 ### Input Validation
 
 I worked closely with one of my favorite Senior SEs to enhance the validation in our PUT, POST, and DELETE APIs before data is saved into AMP. We developed input validation classes and 
@@ -146,6 +150,6 @@ throughout the guide.
 
 # Feedback
 
-Follow [this link](https://git.rockfin.com/mmakhool/portfolio/tree/main/Feedback) to be taken to the Feedback section of my portfolio.
+Follow [this link](TODO) to be taken to the Feedback section of my portfolio.
 
 
