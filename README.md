@@ -109,8 +109,8 @@ the API team.
 ## OA Support Teams Room Chat Bot - Hackathon 2023
 
 Utilized Power Automate to build a chat bot that responds to questions being asked in the OA Support Teams room. Power Automate didn't quite allow for multiple 
-people to drive on the work, so I aided in the testing portions of the bot by prompting the bot to respond to my messages and documented the findings including the 
-amount of time it took the bot to respond and the context the bot responds with.
+people to drive on the work, so I assisted in the testing portions by prompting the bot to respond to certain messages and documented the findings including the 
+amount of time it took the bot to respond and the context it responds with.
 
 ## Login Metrics - Hackweek 2021/2022
 
