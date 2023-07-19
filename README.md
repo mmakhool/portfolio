@@ -47,25 +47,26 @@ Our main platform retrieves team member licensing data from Central Staging Area
 World will be the new source of truth for the team member banker licensing data. A new process is required in order for our platform to retrieve licensing data from the 
 new source LTW.
 
-We collaborated with the proper teams and utilized a class created by Team PHAST that will be triggered by loan timer. The class will run to verify that we have NMLS 
+We collaborated with the proper teams and created a class that will be triggered by loan timer. The class will run to verify that we have NMLS 
 ID. If the ID is missing it will call RHDS to obtain the ID using the CBID. If NMLS ID already exists, the class will call LTW to retrieve licensing data for the 
 assigned loan officer and write this data to our platform's maintenance database. 
 
 I took advantage of the recent move from Progress Developer Studio to Visual Studio Code to write the Progress code for the Tidal program that will run the main procedure 
-developed by BAE team members. Even though the creation of the Tidal job was rather quick, learning how to use VS Code to handle a lot of the processes that we were use 
-to doing on Progress Developer Studio was an interesting (and welcomed) change. Additionally, I worked closely the Unix team to better understand the Tidal job scheduling 
-processes, and relayed that knowledge to BAE team members.
+developed by some of my collegues. Even though the creation of the Tidal job was rather quick, learning how to use VS Code to handle a lot of the processes that we were 
+use to doing on Progress Developer Studio was an interesting (and welcomed) change. Additionally, I worked closely the Unix team to better understand the Tidal job 
+scheduling processes, and relayed that knowledge to my team members.
 
 # Mentorship
 
 ## Software Engineering Mentorship with Chris Wilder
 
-Shortly after my initial attempt at the career advancement panel in early 2022, the Shield Mentorship program was implemented. I was given feedback and a list of focus 
-points to improve upon. This list emphasized more immersion with AWS Terraform, OO Principles, and taking on more complex coding projects, while taking the conn on more 
+Shortly after my initial attempt at the career advancement panel in early 2022, a mentorship program was implemented. I was given feedback and a list of focus 
+points to improve upon. This list emphasized more immersion with AWS Terraform, OO Principles, and taking on more complex coding projects, while taking the lead on more 
 assignments. To help me accomplish these goals, I was provided the opportunity to have a mentor.
 
 My mentor, Chris Wilder, was a perfect selection for me, as he was able to provide insight on software engineering principles and processes that I was not quite 
-familiar with, including REST API, Object-Oriented Programming, CICDs, AWS Terraform, and CircleCI.
+familiar with, including REST API, Object-Oriented Programming, CICDs, AWS Terraform, and CircleCI. Since then, I have dramatically improved on those focus points and 
+utilize these skills daily.
 
 Overall, the mentorship program was a massive success. Chris and I continue to communicate frequently, and he has proven to be an incredibly valuable resource for our 
 team. Additionally, I was the first on our team to embed within another team for educational purposes and to be able to focus on those feedback areas I was 
@@ -74,7 +75,7 @@ given.
 ## Embedding with our API Team
 
 In 2022, I had the pleasure of embedding within our API team for 3 months as part of our mentorship program. This was one of the greatest experiences I have had 
-as a learning developer, and I ended up gaining more knowledge in 3 months than I could have imagined. During my time with the API team, I was given the goal 
+as a learning developer, and I ended up gaining more knowledge in that time than I could have imagined. During my time with the API team, I was given the goal 
 to lead 3 Features and to present during a code review.
 
 ### DashDog2
