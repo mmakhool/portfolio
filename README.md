@@ -115,7 +115,7 @@ amount of time it took the bot to respond and the context it responds with.
 ## Login Metrics - Hackweek 2021/2022
 
 The goal of this project was to create a tidal job program that will acquire login data for Reflection that will also be able to run ad hoc with user-entered 
-dates on a screen in AMP on each environment to ensure user-licensing compliance. I utilized an existing SOC Audit codetable/driver to contain the report that our
+dates on a screen on each environment of the main platform to ensure user-licensing compliance. I utilized an existing SOC Audit codetable/driver to contain the report that our
 tidal job runs. The driver program also gives us the capabilities to run the report at will without having to wait for the tidal job to run.
 
 ![image](https://github.com/mmakhool/Portfolio/assets/132611699/9d70cef2-5da4-457b-8dad-3c0e513e4dfc)
