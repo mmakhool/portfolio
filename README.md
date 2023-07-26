@@ -89,7 +89,7 @@ and all OA services. We used Svelt and Go throughout the development process, wh
 
 ### Input Validation
 
-I worked closely with one of my favorite Senior SEs to enhance the validation in our PUT, POST, and DELETE APIs before data is saved into AMP. We developed input 
+I worked closely with one of my favorite Senior SEs to enhance the validation in our PUT, POST, and DELETE APIs before data is saved into the database. We developed input 
 validation classes and created unit tests to verify the information being passed through, developed architecture diagrams, and documentation to support and reference the 
 API validation process, and coordinate with consumers of the API to conduct testing and confirm services are functioning correctly.
 
