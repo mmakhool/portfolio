@@ -20,8 +20,7 @@ allowed me to contribute to more complex business efforts that weren't previousl
 
 A team we worked close with had a large amount of Tier 1 support tickets that were going directly to Tier 2 and Tier 3 teams. Our business support team is unable to fully 
 support their ticket requests, as there were no tools available to support their team's intake requests at this level. With this application, we will have the capability 
-to build tools that support their needs at the Tier 1 level. This will help enable the team to focus on coding new technology and expand expanded our knowledge of their 
-requests.
+to build tools that support their needs at the Tier 1 level. This will help enable the team to focus on coding new technology and expand our knowledge of their requests.
 
 Throughout the initial creation of the Toolbox UI and Backend for Frontend, I had to constantly adapt and learn various processes that our team was not yet familiar 
 with, including: Terraform, Circle configs, authorization through bearer tokens, and API connectors. Additionally, I learned how to program with Angular, 
