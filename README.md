@@ -78,7 +78,7 @@ to lead 3 Features and to present during a code review.
 
 ### DashDog2
 
-DashDog was the first Feature I lead with Chris Wilder and Joel Smith, who mentors Chris. The DashDog application provides important health checks for AWS East and West 
+DashDog was the first feature I lead with Chris Wilder and Joel Smith, who mentors Chris. The DashDog application provides important health checks for AWS East and West 
 and all OA services. We used Svelt and Go throughout the development process, which was my first time utilizing other programming languages outside of Progress.
 
 ![image](https://github.com/mmakhool/Portfolio/assets/132611699/b5b05c55-afef-4d3d-aa19-9152bf7926d9)
