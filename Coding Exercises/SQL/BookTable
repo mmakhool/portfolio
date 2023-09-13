@@ -1,0 +1,40 @@
+create table books(id int, title varchar(250), year int, author varchar(250));
+
+create table reviewers(id int, name carchar(250));
+
+create table ratings(reviewer_id int, book_id int, rating int, rating_date date);
+
+/* Find pairs of reviewers so that both reviewers gave a rating to the same book.
+ Eliminate duplicates, don't pair reviewers with themselves, and include each pair only once. 
+ Return reviewer pairs by returning their full names in two columns of the same row. 
+ Reviewer from first column should have full name preceding name of second reviewer in alphabetical order. 
+ I am given 3 tables: 
+ 
+create table books(id int, title varchar(250), year int, author varchar(250));
+
+create table reviewers(id int, name carchar(250));
+
+create table ratings(reviewer_id int, book_id int, rating int, rating_date date); */
+
+SELECT DISTINCT
+    LEAST(r1.name, r2.name) AS reviewer1,
+    GREATEST(r1.name, r2.name) AS reviewer2
+FROM
+    ratings AS ra1
+JOIN
+    ratings AS ra2 ON ra1.book_id = ra2.book_id
+JOIN
+    reviewers AS r1 ON ra1.reviewer_id = r1.id
+JOIN
+    reviewers AS r2 ON ra2.reviewer_id = r2.id
+WHERE
+    r1.id < r2.id
+ORDER BY
+    reviewer1, reviewer2;
+
+
+/* This query first joins the ratings table with itself on the book_id column to find pairs of reviewers who rated the same book. 
+It then joins the result with the reviewers table twice to get the full names of the reviewers. 
+The WHERE clause ensures that the same pair of reviewers is not repeated, and the LEAST and GREATEST functions 
+are used to ensure that the reviewer pairs are always ordered alphabetically. */
+
