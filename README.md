@@ -2,7 +2,7 @@
 
 - 🌱 I’m currently learning: C# and .NET
 - 👾 I have been working as a Software Engineer for: 4 years
-- 💬 Programming: Progress, Angular, Node, TypeScript, JavaScript C#, .NET, Python, Go, CSS, HTML
+- 💬 Programming: Progress, Angular, Node, TypeScript, JavaScript, C#, .NET, Python, Go, CSS, HTML
 - 📫 How to reach me: <a href="https://www.linkedin.com/in/mickmakhool/">LinkedIn</a>
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I met my wife on World of Warcraft!
