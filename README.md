@@ -9,11 +9,39 @@
 
 # 👨‍💻 Software Engineer Portfolio
 
-This portfolio contains notable contributions throughout my career as a Software Engineer. Within the last year, I have gone through a great deal of growth, 
+This portfolio contains notable contributions throughout my career as a Software Engineer.
+
+Within the last year, I have gone through a great deal of growth, 
 and have been given the opportunity to improve upon my knowledge even more after transitioning into a brand new engineering team at the beginning of 2023. This transition 
 allowed me to contribute to more complex business efforts that weren't previously within my scope.
 
+Towards the end of 2023, I find myself within a new organization, providing new and fun challenges to overcome. My long-term goal that I plan on carrying into 2024 is to
+provide my organization with modern solutions to replace their legacy applications that either aren't being supported anymore, or not fully meeting our team's expectations. 
+The first project I take from the backlog was to find a new solution for their current time clock application.
+
 # Projects
+
+## CoeClock
+
+I took a lead role in revolutionizing our time-clock system by replacing an outdated legacy application with a state-of-the-art solution. Harnessing the power of .NET MAUI, I laid the groundwork for the project, 
+establishing a robust and scalable code infrastructure. A key aspect of the initiative was the development of a dynamic dashboard, meticulously crafted to serve as the central hub for the time clock and future 
+applications, enhancing user accessibility and interaction.
+
+Delving into the intricacies of data management, I initiated the creation of a MongoDB database from the ground up. This involved not only spinning up the database but also designing and implementing efficient data 
+models, ensuring optimal storage, retrieval, and overall performance. A crucial part of this process was establishing a seamless service connection to facilitate smooth communication between the application and the 
+database.
+
+![image](https://github.com/mmakhool/portfolio/assets/132611699/5658e686-d69a-40fc-ba52-67f4c8b23887)
+
+Security was a top priority throughout the project. I implemented a comprehensive user authentication system, bolstering the application's defenses. The user experience was further enhanced with the seamless integration 
+of password hashing, contributing to a fluid and secure interaction for users.
+
+![image](https://github.com/mmakhool/portfolio/assets/132611699/88a35034-436e-405d-8fac-e1169e2dbdb5)
+
+![image](https://github.com/mmakhool/portfolio/assets/132611699/a96f4f34-be39-441c-96c6-f59377358195)
+
+The outcome of this multifaceted effort was a successful replacement of the legacy time-clock system. The new solution not only meets the immediate needs of the organization but also sets the stage for future 
+enhancements and integrations. This project stands as a testament to my proficiency in modern technology stacks, system architecture, and my ability to deliver transformative solutions.
 
 ## Support Toolbox
 
