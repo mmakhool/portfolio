@@ -40,9 +40,6 @@ of password hashing, contributing to a fluid and secure interaction for users.
 
 ![image](https://github.com/mmakhool/portfolio/assets/132611699/a96f4f34-be39-441c-96c6-f59377358195)
 
-/* The outcome of this multifaceted effort was a successful replacement of the legacy time-clock system. The new solution not only meets the immediate needs of the organization but also sets the stage for future 
-enhancements and integrations. This project stands as a testament to my proficiency in modern technology stacks, system architecture, and my ability to deliver transformative solutions. */
-
 ## Support Toolbox
 
 A team we worked close with had a large amount of Tier 1 support tickets that were going directly to Tier 2 and Tier 3 teams. Our business support team is unable to fully 
