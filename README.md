@@ -36,10 +36,6 @@ database.
 Security was a top priority throughout the project. I implemented a comprehensive user authentication system, bolstering the application's defenses. The user experience was further enhanced with the seamless integration 
 of password hashing, contributing to a fluid and secure interaction for users.
 
-![image](https://github.com/mmakhool/portfolio/assets/132611699/88a35034-436e-405d-8fac-e1169e2dbdb5)
-
-![image](https://github.com/mmakhool/portfolio/assets/132611699/a96f4f34-be39-441c-96c6-f59377358195)
-
 ## Support Toolbox
 
 A team we worked close with had a large amount of Tier 1 support tickets that were going directly to Tier 2 and Tier 3 teams. Our business support team is unable to fully 
