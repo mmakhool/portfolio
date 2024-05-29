@@ -1,7 +1,7 @@
 <h1>Hello there!<br/> </h1>
 
-- 🌱 I’m currently learning: C# and .NET
-- 👾 I have been working as a Software Engineer for: 4 years
+- 🌱 I’m currently learning: C# and .NET MAUI
+- 👾 I have been working as a Software Engineer for: 5 years with 2 additional years of on the job training/shadowing
 - 💬 Programming: Progress, Angular, Node, TypeScript, JavaScript, C#, .NET, Python, Go, CSS, HTML
 - 📫 How to reach me: <a href="https://www.linkedin.com/in/mickmakhool/">LinkedIn</a>
 - 😄 Pronouns: He/Him
