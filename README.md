@@ -10,8 +10,6 @@
 # 👨‍💻 Software Engineer Portfolio
 
 This portfolio contains notable contributions throughout my career as a Software Engineer.
-            
-![image](https://github.com/mmakhool/portfolio/assets/132611699/9ba7c25a-35e0-4ce7-b900-dcbb9d3a2013)
 
 # Projects
 
@@ -33,7 +31,6 @@ involving MVVM archetectures, dependency injection, and the new .NET 8 features 
 REST APIs to handle communications between the dashboard and GitHub and set up the necessary CI/CD pipelines in GitHub Actions to deploy the app
 and auto-increment the version. We are releasing updates weekly to handle additional features and bug fixes. We are excited to see the impact the app will have.
 
-![image](https://github.com/mmakhool/portfolio/assets/132611699/e5a33919-ba11-4254-a812-af156da996ee)
 
 ## Journey
 
