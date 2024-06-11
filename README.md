@@ -10,31 +10,42 @@
 # 👨‍💻 Software Engineer Portfolio
 
 This portfolio contains notable contributions throughout my career as a Software Engineer.
-
-Within the last year, I have gone through a great deal of growth, 
-and have been given the opportunity to improve upon my knowledge even more after transitioning into a brand new engineering team at the beginning of 2023. This transition 
-allowed me to contribute to more complex business efforts that weren't previously within my scope.
-
-Towards the end of 2023, I find myself within a new organization, providing new and fun challenges to overcome. My long-term goal that I plan on carrying into 2024 is to
-provide my organization with modern solutions to replace their legacy applications that either aren't being supported anymore, or not fully meeting our team's expectations. 
-The first project I take from the backlog was to find a new solution for their current time clock application.
+            
+![image](https://github.com/mmakhool/portfolio/assets/132611699/9ba7c25a-35e0-4ce7-b900-dcbb9d3a2013)
 
 # Projects
 
 ## CoeClock
 
-I took a lead role in revolutionizing our time-clock system by replacing an outdated legacy application with a state-of-the-art solution. Harnessing the power of .NET MAUI, I laid the groundwork for the project, 
-establishing a robust and scalable code infrastructure. A key aspect of the initiative was the development of a dynamic dashboard, meticulously crafted to serve as the central hub for the time clock and future 
-applications, enhancing user accessibility and interaction.
-
-Delving into the intricacies of data management, I initiated the creation of a MongoDB database from the ground up. This involved not only spinning up the database but also designing and implementing efficient data 
-models, ensuring optimal storage, retrieval, and overall performance. A crucial part of this process was establishing a seamless service connection to facilitate smooth communication between the application and the 
-database.
+Upon starting with my new company, I searched through our backlog to find a project that would help me understand the various dynamics 
+of the company and provide an impactful solution for our users within my first 6 months. I was immediately drawn to the
+stories in our backlog that were related to our time-clock system. The current system was outdated, and no longer being maintained.
+I saw an opportunity to use my past time-clock application knowledge and ownership experience to create a modern and scalable
+time-clock system housed within a dashboard application to allow for future services to be implemented. I started by creating a
+database schema design based off of the existing Progress OpenEdge tables using Lucidchart and spun up a MongoDB database to house the data.
 
 ![image](https://github.com/mmakhool/portfolio/assets/132611699/5658e686-d69a-40fc-ba52-67f4c8b23887)
 
-Security was a top priority throughout the project. I implemented a comprehensive user authentication system, bolstering the application's defenses. The user experience was further enhanced with the seamless integration 
-of password hashing, contributing to a fluid and secure interaction for users.
+The dashboard initially started as a MERN stack application, however, a few weeks in, and with the addition of a new developer
+colleague, we made the strategic decision to switch to .NET MAUI to leverage the multi-platform capabilities (legacy app only worked on Windows) 
+of the framework while taking the opportunity to learn a newer framework and to really test those capabilities. I adapted and implemented best practices
+involving MVVM archetectures, dependency injection, and the new .NET 8 features alongside the ins and outs of the legacy system. I developed the initial
+REST APIs to handle communications between the dashboard and GitHub and set up the necessary CI/CD pipelines in GitHub Actions to deploy the app
+and auto-increment the version. We are releasing updates weekly to handle additional features and bug fixes. We are excited to see the impact the app will have.
+
+![image](https://github.com/mmakhool/portfolio/assets/132611699/e5a33919-ba11-4254-a812-af156da996ee)
+
+## Journey
+
+I assist with maintaining and updating existing Progress OpenEdge applications, and mentoring newer Progress developers. Additionally, I shadow
+users in other departments on a biweekly basis to understand their processes and the applications they use. The goal is to find areas where
+we can improve the user experience and provide solutions to make their jobs easier, while obtaining a better understanding of how the business operates.
+
+For over 30 years, the Progress codebase has been developed and maintained by a single developer. After becoming familiar with the Progress App Builder 
+and the many existing procedures, the first task I gave myself was to reformat a GUI screen called Journey, which is used by our sales department
+to track customer interactions. After a couple more weeks of shadowing, the sales manager provided a mock-up of the new Journey GUI that met their needs.
+I restructured the screens and field locations with the information provided, presented the necessary database schema changes to the IT Manager,
+and sent images of my proposed updates to the sales manager for feedback.
 
 ## Support Toolbox
 
