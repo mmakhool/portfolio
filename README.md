@@ -1,6 +1,6 @@
 <h1>Hello there!<br/> </h1>
 
-- 🌱 I’m currently learning: C# and .NET MAUI
+- 🌱 I’m currently learning: C#, .NET MAUI, PHP, WordPress, and on the side some 3D digital modeling and 3D Printing
 - 👾 I have been working as a Software Engineer for: 5 years with 2 additional years of on the job training/shadowing
 - 💬 Programming: Progress, Angular, Node, TypeScript, JavaScript, C#, .NET, Python, Go, CSS, HTML
 - 📫 How to reach me: <a href="https://www.linkedin.com/in/mickmakhool/">LinkedIn</a>
