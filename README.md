@@ -25,7 +25,7 @@ database schema design based off of the existing Progress OpenEdge tables using 
 ![image](https://github.com/mmakhool/portfolio/assets/132611699/5658e686-d69a-40fc-ba52-67f4c8b23887)
 
 The dashboard initially started as a MERN stack application, however, a few weeks in, and with the addition of a new developer
-colleague, we made the strategic decision to switch to .NET MAUI to leverage the multi-platform capabilities (legacy app only worked on Windows) 
+colleague, we made the decision to switch to .NET MAUI to leverage the multi-platform capabilities (legacy app only worked on Windows) 
 of the framework while taking the opportunity to learn a newer framework and to really test those capabilities. I adapted and implemented best practices
 involving MVVM archetectures, dependency injection, and the new .NET 8 features alongside the ins and outs of the legacy system. I developed the initial
 REST APIs to handle communications between the dashboard and GitHub and set up the necessary CI/CD pipelines in GitHub Actions to deploy the app
