@@ -1,0 +1,290 @@
+%-------------------------
+% Resume in Latex
+% Author : Michael Makhool
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\usepackage{enumitem}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeItemWithDate}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{2pt}
+}
+
+\newcommand{\resumeSubheadingDuo}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-15pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemSummaryStart}{\begin{itemize}[label={},leftmargin=*]}
+\newcommand{\resumeItemSummaryEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Michael Makhool} \\ \vspace{1pt}
+    \small 313-418-6902 $|$ \href{mailto:mmakhool6@gmail.com}{\underline{mmakhool6@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/mickmakhool}{\underline{linkedin.com/in/mickmakhool}} $|$
+    \href{https://github.com/mmakhool/portfolio}{\underline{github.com/mmakhool/portfolio}} $|$
+    \small Detroit, MI
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+  \resumeItemListStart
+    \resumeItem{C\#, .NET Framework, .NET MAUI, ASP.NET, ASP.NET Core, Blazor}
+    \resumeItem{JavaScript, TypeScript, Node.js, Nest.js, Express, Angular, AngularJS, Svelte}
+    \resumeItem{Progress ABL, Telerik, Kendo UI, OpenEdge, PDSOE, Sonic ESB, SonicMQ}
+    \resumeItem{Jest, Test Driven Development (TDD), Postman, Unit Testing, Integration Testing, End-to-End Testing}
+    \resumeItem{RESTful API, Swagger, OAuth2 Authentication}
+    \resumeItem{CSS/HTML, React, Vue, CSS Tailwinds}
+    \resumeItem{Amazon Web Services (AWS), Lambda, SQS, SNS, S3, EC2, Terraform}
+    \resumeItem{MongoDB, MongoDB Compass, Mongosh}
+    \resumeItem{SQL Server, MySQL, PostgreSQL}
+    \resumeItem{CircleCI, SonarQube, Jenkins, Docker, Kubernetes}
+    \resumeItem{Agile, Scrum, Kanban, Azure DevOps}
+    \resumeItem{Visual Studio 2022, Visual Studio Code, Git, GitHub Actions, Lucidchart}
+  \resumeItemListEnd
+
+\section{Additional Skills}
+  \resumeItemListStart
+    \resumeItem{Full-stack programming with experience in app development at multiple scales}
+    \resumeItem{Agile focused with an impactful presence in stand-ups, sprint planning, and retrospectives}
+    \resumeItem{Ability to learn and implement unfamiliar methodologies and technologies quickly}
+    \resumeItem{Highly research oriented with a passion for learning new technologies}
+    \resumeItem{Mentoring of junior developers and interns}
+    \resumeItem{Professional development focused, driven to grow and understand best practices}
+    \resumeItem{Strong communication skills with a focus on collaboration and team building}
+    \resumeItem{Former 91B (Wheeled Vehicle Mechanic) Specialist in the United States Army}
+    \resumeItem{Professional level video game player (self-proclaimed)}
+  \resumeItemListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheadingDuo
+      {\textbf{Coe Press Equipment} $|$ \emph{Sterling Heights, MI}}{Nov. 2023 -- present }
+      \resumeItemSummaryStart
+        \resumeItemWithDate
+          {\textbf{CoeDashboard}}{IT Developer -- Nov. 2023 - present}
+            {Upon joining, I identified an outdated time-clock system in our backlog and initiated its modernization. I designed a scalable dashboard application, 
+            starting with a MongoDB database schema based on existing Progress OpenEdge tables. Initially a MERN stack application, we transitioned to C\# and .NET MAUI 
+            with the addition of a new developer. I implemented MVVM architectures, dependency injection, developed REST APIs and established CI/CD pipelines in 
+            GitHub Actions for deployment and versioning. We release weekly updates for feature additions and bug fixes, anticipating significant impact from the application.}
+        \resumeItemWithDate
+          {\textbf{Journey}}{Nov. 2023 - present}
+            {I maintain and update Progress OpenEdge applications, mentor new developers, and shadow users biweekly to understand their workflows and identify UX improvements. 
+            I reformatted a sales tracking GUI called Journey. Following user feedback, I restructured the GUI, proposed database schema changes, and tested the changes to 
+            ensure the changes compiled with the existing code. Implementation of these changes has caused an increase in usage with the sales team and has allowed them 
+            to manage their CRM data quicker and more efficiently.}
+      \resumeItemSummaryEnd
+    \resumeSubheadingDuo
+      {\textbf{Rocket Mortgage / Quicken Loans} $|$ \emph{Detroit, MI}}{Nov. 2017 -- Aug. 2023 }
+      \resumeItemSummaryStart
+        \resumeItemWithDate
+          {\textbf{Support Toolbox}}{Software Engineer -- Oct. 2022 - Aug. 2023}
+            {Developed an Angular/TypeScript application based off of an existing app shell created by another engineering team. The goal was to create a toolbox to house on-demand
+            loan-level fixes for trending issues, enabling Tier 1 support teams to avoid potential escalation times, while reducing the load on Tier 2 and Tier 3 teams
+            by managing ticket intake more effectively at the Tier 1 level. I created the backend for frontend services and controllers, set up connections to oAuth and
+            Amazon SQS, and developed a tool to resolve cross-platform mismatch errors. After release, there was a substantial reduction in overall OnCall escalations.}
+        \resumeItemWithDate
+          {\textbf{Login Metrics}}{Sept. 2022 - Oct. 2022}
+            {The objective of this project was to develop a scheduled task program capable of retrieving login data. This program also supports ad hoc operations, 
+            allowing users to input specific dates directly on the interface in each environment of the primary platform. This functionality is crucial for maintaining
+            user-licensing compliance. To achieve this, I utilized an existing SOC Audit code table/driver to house the report generated by our scheduled task program.
+            This program was developed in Progress ABL and JavaScript, and was integrated with Amazon S3 for data storage. After development, the program was 
+            able to find areas of cost savings in relation to excess licensing of users that no longer needed that particular license.}
+        \resumeItemWithDate
+          {\textbf{Space Mountain}}{Apr. 2022 - Sept. 2022}
+            {Embedded into a team that was responsible for the development and maintenance of all API endpoints for the primary mortgage platform. I made contributions
+            to their QE testing suite by developing a BA tool that supported accurate county recording costs for clients in applicable counties. Additionally, I took the
+            lead role on 3 different features, including an application made with JavaScript and Svelte that checked current AWS region statuses. I participated in weekly 
+            office-hours sessions to assist developers from other teams seeking help with creating and integrating new endpoints, and I held code reviews within and outside
+            of our team to ensure quality and consistency.}  
+        \resumeItemWithDate
+          {\textbf{Input Validation}}{Progress Developer -- Mar. 2022 - Apr. 2022}
+            {I helped enhance the validation in our PUT, POST, and DELETE APIs before data is saved into the Progress database. I built input validation classes and created
+            unit tests to verify the information being passed through, developed architecture diagrams, and documentation to support and reference the API validation process, 
+            and coordinated with consumers of the API to conduct testing and confirm services are functioning as intended.}
+        \resumeItemWithDate
+          {\textbf{QuickClock}}{Feb. 2020 - Aug. 2023}
+            {I took ownership of the time-clock system that handled all hourly employee time tracking. I enhanced the integration within the primary mortgage platform by
+            reinforcing the procedures for user input validation and ensuring data integrity. Corrected various functionality issues that allowed for users to bypass the system's
+            validation checks, and restructured existing documentation to allow for easier onboarding of future app owners.}
+        \resumeItemWithDate
+          {\textbf{xBert}}{Nov. 2019 - Mar. 2022}
+            {Obtained ownership of the xBert application, a backend admin tool that manages the creation and maintenance of all customer user accounts within the primary mortgage platform.
+            I made improvements to how the application handled logging by replacing the existing logging system with a more robust and efficient logging library. This change allowed
+            for improved integration with up-to-date systems and provided a more detailed log output for debugging purposes.}
+        \newpage    
+        \resumeItemWithDate
+          {\textbf{AMP Programming OnCall}}{Aug. 2018 - Aug. 2023}
+            {I addressed areas of improvement in our existing OnCall process to senior leadership with a proposal to have our team take ownership of the OnCall Rotation. I was given
+            the opportunity to transition into a trial developer role while continuously enhancing the process and flow for all loan-level escalation tickets. I streamlined the
+            confusing process that was originally handled by engineers from multiple teams assigned to a rotation, and created a more efficient process that significantly reduced
+            the time it took to resolve issues. Having the OnCall rotation operating by a single team working directly with each support tier caused escalation turn-times to drop from
+            48 hours or more to less than 24 hours with a majority of escalations being resolved within 2-3 hours.}
+        \resumeItemWithDate
+          {\textbf{Knowledgebase Migration}}{Business Support Analyst -- Jan. 2018 - Jan. 2019}
+            {I led the migration of all team knowledge base articles from a legacy system to a new in-house platform, improving accessibility and searchability.
+            I analyzed usage data to identify trending articles, collaborated with other analysts to update and enhance the content, and established a new documentation standard 
+            to ensure consistency and quality across all articles. This standard included guidelines for article structure, tagging, and formatting. Additionally, 
+            I trained team members on the new platform and documentation standard, ensuring a smooth transition and continuous improvement in our knowledge management.}
+        \resumeItemWithDate
+          {\textbf{SE Shadowing}}{Nov. 2017 - Aug. 2018}
+            {Utilized weekly professional development time provided by the company to shadow and work with software engineers within our stream to gain a better understanding of the technology
+            stack that supports the primary mortgage application. I assisted in the development of loan-level procedural Progress fixes and queries while identifying process improvements
+            and potential automation opportunities.}
+      \resumeItemSummaryEnd
+  \resumeSubHeadingListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+%-----------PROJECTS-----------
+% \section{Projects}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%         {\textbf{CoeClock} $|$ \emph{C\#, .NET MAUI, MongoDB, Git}}{2023 -- 2024}
+%         \resumeItemListStart
+%           \resumeItem{Developed a modern and scalable dashboard and time-clock application using the .NET 8 framework, effectively replacing the existing legacy system}
+%           \resumeItem{Utilized the multi-platform capabilities of .NET MAUI to seamlessly develop cross-platform applications, ensuring a consistent and unified user experience across various devices and operating systems}
+%           \resumeItem{Created the dashboard with scalability in mind, allowing for future services to be implemented}
+%           \resumeItem{Established a new MongoDB database to efficiently store and manage records previously housed in a SQL database}
+%           \resumeItem{Seamlessly integrated the MongoDB database with the application, optimizing authentication, data retrieval, and enhancing overall system performance}
+%         \resumeItemListEnd
+%       \resumeProjectHeading
+%           {\textbf{Support Toolbox} $|$ \emph{TypeScript, Angular, Node.js, AWS (S3, SQS, Lambda), CircleCI, Git}}{2023}
+%           \resumeItemListStart
+%             \resumeItem{Developed a full-stack application to support Tier 1 support tickets, reducing the load on Tier 2 and Tier 3 teams by creating tools to manage ticket intake at Tier 1 level}
+%             \resumeItem{Adapted and learned new processes, including Terraform, Circle configs, bearer token authorization, and API connectors, to create the Toolbox UI and Backend for Frontend}
+%             \resumeItem{Acquired proficiency in Angular, NodeJS, and TypeScript to align with the syntax of the existing Admin Shell}
+%             \resumeItem{Led the development of the back end service and controller for a tool resolving cross-platform mismatch errors}
+%             \resumeItem{Overcame challenges in SQS Queue Services development by conducting extensive research through online sources and AWS documentation, as there were limited in-house repositories utilizing SQS}
+%           \resumeItemListEnd
+%       \resumeProjectHeading
+%           {\textbf{Login Metrics} $|$ \emph{Progress ABL, JavaScript, Amazon S3, CircleCI, Git}}{2022 -- 2023}
+%           \resumeItemListStart
+%             \resumeItem{Led the development of a Tidal Job program to streamline the acquisition of login data, ensuring user-licensing compliance across all environments}
+%             \resumeItem{Leveraged an existing SOC Audit codetable/driver to contain the report executed by the Tidal Job, optimizing report generation and data retrieval processes}
+%             \resumeItem{Enabled ad hoc execution of the program with customized date ranges for maximum flexibility and accuracy}
+%           \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+    %-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {\textbf{Wayne State University} $|$ \emph{Detroit, MI}}{Jan. 2020 -- present }
+    {In Progress}{BS in Computer Science - Junior - Overall GPA: 3.83}
+  \resumeSubHeadingListEnd
+\vspace{1mm}
+%-------------------------------------------
+\end{document}
