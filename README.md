@@ -38,7 +38,7 @@ and auto-increment the version. We are releasing updates weekly to handle additi
 
 ## Journey
 
-I assist with maintaining and updating existing Progress OpenEdge applications, and mentoring newer Progress developers. Additionally, I shadow
+I assisted with maintaining and updating existing Progress OpenEdge applications, and mentoring newer Progress developers. Additionally, I shadow
 users in other departments on a biweekly basis to understand their processes and the applications they use. The goal is to find areas where
 we can improve the user experience and provide solutions to make their jobs easier, while obtaining a better understanding of how the business operates.
 
