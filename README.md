@@ -13,13 +13,6 @@ This portfolio contains notable contributions throughout my career as a Software
 
 # Projects
 
-## Request Desk
-
-Shortly after starting my new role at Publicis Collective, I continued the efforts of building upon an interface that works directly with Jira and will
-allow users to submit certain tickets or requests applicable to their particular brand without utilizing a full Jira license. This product is
-expected to significantly decrease the total amount spent on licenses. I am in the early stages of understanding the existing codebase and stack utilized for
-this application (Node, RushJS, TypeScript, PSQL, Docker, and more).
-
 ## CoeClock
 
 I saw an opportunity to use my past time-clock application knowledge and ownership experience to create a modern and scalable
